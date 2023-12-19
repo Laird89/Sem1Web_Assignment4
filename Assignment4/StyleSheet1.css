@@ -1,0 +1,111 @@
+
+
+.header{
+    text-align: center;
+    background-color: rgb(34, 34, 34);
+    grid-area: header;
+    color: rgb(243, 239, 224);
+    box-shadow: rgba(243, 239, 224, 0.45) 0px 20px 25px -20px;
+    text-shadow: 3px 4px 7px rgba(34, 163, 159, 0.5);
+}
+
+body{
+    background-color: rgb(67, 66, 66);
+    margin: 0;
+    padding: 0;
+    color: rgb(243, 239, 224);
+}
+
+.image1{
+    height: 350px;
+    width: 250px;
+}
+
+.image{
+    height: 200px;
+    width: 150px;
+}
+
+#movie1{
+    padding-top: 20px;
+    margin: auto;
+    grid-area: mov1;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#actors1{
+    margin: auto;
+    grid-area: act1;
+    text-align: center;
+}
+#movie2{
+    margin: auto;
+    margin-top: 20px;
+    grid-area: mov2;
+    text-align: center;
+}
+
+#actors2{
+    margin: auto;
+    grid-area: act2; 
+    text-align: center;  
+}
+
+.para{
+    font-size: smaller;
+    width: 300px;
+    color: rgb(243, 239, 224);
+}
+
+.names{
+    margin-bottom: -5px;
+    text-decoration: underline;
+}
+
+cite{
+    font-size: x-small;
+}
+
+
+.footer{
+    grid-area: footer;
+    background-color: rgb(34, 34, 34);
+    text-align: center;
+    height: 50px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas: "header header"
+                         "mov1 mov2"
+                         "act1 act2"
+                         "footer footer";
+}
+
+
+#link1{
+    margin-top: 15px;
+    margin-left: 50px;
+    float:left;
+}
+
+#link2{
+    margin-top: 15px;
+    margin-right:50px;
+    float:right;
+}
+
+.link{
+    color: rgb(243, 239, 224);
+}
+
+.link:hover{
+    color:rgb(34, 163, 159);
+}
+
+.link:visited{
+    color: rgb(243, 239, 224);
+    text-decoration: none;
+}
